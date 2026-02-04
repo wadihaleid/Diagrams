@@ -85,7 +85,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tWicLttxeN5EkmjMz1t1-23" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.gdb_graph_database;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;" value="&lt;div&gt;Semantic models&lt;/div&gt;" vertex="1">
-          <mxGeometry height="47.400000000000006" width="54.900000000000006" x="860" y="104" as="geometry" />
+          <mxGeometry height="47.400000000000006" width="54.900000000000006" x="880" y="104" as="geometry" />
         </mxCell>
         <mxCell id="tWicLttxeN5EkmjMz1t1-24" edge="1" parent="1" source="tWicLttxeN5EkmjMz1t1-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.549;entryDx=0;entryDy=0;entryPerimeter=0;" target="tWicLttxeN5EkmjMz1t1-23">
           <mxGeometry relative="1" as="geometry" />
