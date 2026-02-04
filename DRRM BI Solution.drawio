@@ -13,6 +13,9 @@
         <mxCell id="K0LuYKlPbhRDv2DpqKjz-1" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" value="DRRM_BI (Fin BI)" vertex="1">
           <mxGeometry height="70" width="52.5" x="60" y="50" as="geometry" />
         </mxCell>
+        <mxCell id="tWicLttxeN5EkmjMz1t1-19" edge="1" parent="1" source="K0LuYKlPbhRDv2DpqKjz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tWicLttxeN5EkmjMz1t1-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="K0LuYKlPbhRDv2DpqKjz-2" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Data_Warehouses.svg;" value="DRRM_BI_Legacy_DWH (&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;DER DRRM INTERNAL&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;" vertex="1">
           <mxGeometry height="65" width="64" x="340" y="250" as="geometry" />
         </mxCell>
@@ -33,6 +36,9 @@
         <mxCell id="0CxSXIjFIa6Ifnj7u9Cs-2" parent="1" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.data;fillColorStyles=fillColor2,fillColor3,fillColor4;fillColor2=#032d60;fillColor3=#0d9dda;fillColor4=#ffffff;fillColor=none;strokeColor=none;" value="Synergy (Salesforce)" vertex="1">
           <mxGeometry height="60" width="48.6" x="60" y="560" as="geometry" />
         </mxCell>
+        <mxCell id="tWicLttxeN5EkmjMz1t1-13" edge="1" parent="1" source="0CxSXIjFIa6Ifnj7u9Cs-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="tWicLttxeN5EkmjMz1t1-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0CxSXIjFIa6Ifnj7u9Cs-3" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Data_Warehouses.svg;" value="Synergy_DWH (DER DRRM INTERNAL)" vertex="1">
           <mxGeometry height="65" width="64" x="347" y="393" as="geometry" />
         </mxCell>
@@ -49,6 +55,27 @@
           <mxGeometry height="48" width="50" x="190" y="562" as="geometry" />
         </mxCell>
         <mxCell id="0CxSXIjFIa6Ifnj7u9Cs-8" edge="1" parent="1" source="0CxSXIjFIa6Ifnj7u9Cs-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.16;entryY=0.583;entryDx=0;entryDy=0;entryPerimeter=0;" target="0CxSXIjFIa6Ifnj7u9Cs-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tWicLttxeN5EkmjMz1t1-14" edge="1" parent="1" source="tWicLttxeN5EkmjMz1t1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tWicLttxeN5EkmjMz1t1-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tWicLttxeN5EkmjMz1t1-11" parent="1" style="editableCssRules=.*;html=1;shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnY9Imh0dHBzOi8vdmVjdGEuaW8vbmFubyIgd2lkdGg9IjE0LjUxOTk5OTUwNDA4OTM1NSIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDE0LjUxOTk5OTUwNDA4OTM1NSAyMCI+JiN4YTsJPHN0eWxlIHR5cGU9InRleHQvY3NzIj4mI3hhOwkuc3Qwe2ZpbGwtcnVsZTpldmVub2RkfSYjeGE7CS5zdDF7ZmlsbDojNjY5ZGY2O30mI3hhOwkuc3Qye2ZpbGw6I2FlY2JmYTt9JiN4YTsJLnN0M3tmaWxsOiM0Mjg1ZjQ7fSYjeGE7CTwvc3R5bGU+JiN4YTsJPGcgY2xhc3M9InN0MCI+JiN4YTsJCTxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik03LjM3IDIuMDNsLTEuNzIuOTYgMS41MiAxLjUtLjAyIDEuNzMgMS4wMi4wMS4wMi0xLjczIDQuMjQgMi41Ni0uMDEgMS4wNyAxLjc3LjAzVjYuMTFMOS4wNSAzLjA0bC0uMjctLjk0eiIvPiYjeGE7CQk8cGF0aCBjbGFzcz0ic3QyIiBkPSJNNy4zNiAyLjAzbC0xLjQyLjM1LS4yOS42MUwuMzkgNS45Mi4zNiA3Ljk3IDIuMTQgOGwuMDItMS4wNyA0LjMxLTIuNDUtLjAyIDEuNzMuODYuMDEuMDYtNC4xOXoiLz4mI3hhOwkJPGcgY2xhc3M9InN0MSI+JiN4YTsJCQk8cGF0aCBkPSJNNy4zNiAyLjAzTDMuOTUgMCAyLjIxLjk1bDMuNDQgMi4wNCAxLjcyLS45NnptLjcxIDExLjc2bC0xLjcyLS4wMi0uMDIgMS43Mi44MiAyLjQ4IDEuNDItLjEyLjI5LS44NSA1LjI3LTIuOTMuMDMtMi4wOS0xLjc5LS4wMi0uMDIgMS4xLTQuMyAyLjQ1eiIvPiYjeGE7CQkJPHBhdGggZD0iTTcuMTUgMTcuOTdsLTMuNDYgMS45NGgtLjA1bC0xLjY2LS45OSAzLjQ5LTEuOTYgMS42OCAxLjAxeiIvPiYjeGE7CQk8L2c+JiN4YTsJCTxwYXRoIGNsYXNzPSJzdDMiIGQ9Ik0xMC44OC4wOWgtLjA1TDcuMzcgMi4wM2wxLjY4IDEuMDEgMy40OS0xLjk2ek0xMC42MiAyMGgtLjA1bC0zLjQyLTIuMDNoMCAwIDBsMS43Mi0uOTYgMy40NCAyLjA0eiIvPiYjeGE7CQk8cGF0aCBjbGFzcz0ic3QyIiBkPSJNLjMzIDEzLjg5di0yaDEuNzZsLS4wMSAxLjA0IDQuMjUgMi41Ni4wMi0xLjcyLjg2LjAxLS4wNiA0LjE4LTEuNjgtMXoiLz4mI3hhOwk8L2c+JiN4YTsJPGNpcmNsZSBjbGFzcz0ic3QyIiBjeD0iMTMuMzgiIGN5PSIxMC4wNCIgcj0iMS4xNCIvPiYjeGE7CTxjaXJjbGUgY2xhc3M9InN0MiIgY3g9IjEuMTQiIGN5PSI5Ljg4IiByPSIxLjE0Ii8+JiN4YTsJPGNpcmNsZSBjbGFzcz0ic3QyIiBjeD0iNy4zMiIgY3k9IjcuOTkiIHI9IjEuMTQiLz4mI3hhOwk8Y2lyY2xlIGNsYXNzPSJzdDIiIGN4PSI3LjIzIiBjeT0iMTIiIHI9IjEuMTQiLz4mI3hhOzwvc3ZnPg==;" value="Synergy data transformations" vertex="1">
+          <mxGeometry height="80" width="60" x="560" y="386" as="geometry" />
+        </mxCell>
+        <mxCell id="tWicLttxeN5EkmjMz1t1-17" edge="1" parent="1" source="tWicLttxeN5EkmjMz1t1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="tWicLttxeN5EkmjMz1t1-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tWicLttxeN5EkmjMz1t1-12" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/integration/SQL_Data_Warehouses.svg;" value="Synergy_Staging" vertex="1">
+          <mxGeometry height="65" width="64" x="729" y="393" as="geometry" />
+        </mxCell>
+        <mxCell id="tWicLttxeN5EkmjMz1t1-15" parent="1" style="editableCssRules=.*;html=1;shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnY9Imh0dHBzOi8vdmVjdGEuaW8vbmFubyIgd2lkdGg9IjExLjUzOTk5OTk2MTg1MzAyNyIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDExLjUzOTk5OTk2MTg1MzAyNyAxNiI+JiN4YTsJPHN0eWxlIHR5cGU9InRleHQvY3NzIj4mI3hhOwkuc3Qwe2ZpbGw6IzQyODVmNDt9JiN4YTsJPC9zdHlsZT4mI3hhOwk8Y2lyY2xlIGNsYXNzPSJzdDAiIGN4PSIxMC42MyIgY3k9IjguMDEiIHI9Ii45MSIvPiYjeGE7CTxjaXJjbGUgY2xhc3M9InN0MCIgY3g9Ii45MSIgY3k9IjguMDEiIHI9Ii45MSIvPiYjeGE7CTxjaXJjbGUgY2xhc3M9InN0MCIgY3g9IjUuNzciIGN5PSI2LjY1IiByPSIuOTEiLz4mI3hhOwk8Y2lyY2xlIGNsYXNzPSJzdDAiIGN4PSI1Ljc3IiBjeT0iOS4zNyIgcj0iLjkxIi8+JiN4YTsJPHBhdGggY2xhc3M9InN0MCIgZD0iTTguNTcgMGgtLjAzTDUuNzcgMS42aDAgMEwzIDBoLS4wM0wxLjYyLjc4IDQuNCAyLjM5LjIgNC44djEuN2gxLjQ0di0uOTFsMy40NC0yLjAydjEuNDhoMS4zOFYzLjU3TDkuOSA1LjU5di45MWgxLjQ0VjQuOGwtNC4yLTIuNDFMOS45Mi43OHpNNi40NiAxMC45Nkg1LjA4djEuNDZsLTMuNDQtMi4wMVY5LjVILjJ2MS43bDQuMjEgMi40MS0yLjc5IDEuNjEgMS4zNS43OEgzbDIuNzctMS42TDguNTQgMTZoLjAzbDEuMzUtLjc4LTIuNzktMS42MSA0LjIxLTIuNDFWOS41SDkuOXYuOTFsLTMuNDQgMi4wMXoiLz4mI3hhOzwvc3ZnPg==;" value="" vertex="1">
+          <mxGeometry height="58.67" width="44" x="739" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="tWicLttxeN5EkmjMz1t1-20" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Data_Lake.svg;" value="" vertex="1">
+          <mxGeometry height="60" width="45.6" x="740" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tWicLttxeN5EkmjMz1t1-21" edge="1" parent="1" source="tWicLttxeN5EkmjMz1t1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.461;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" target="tWicLttxeN5EkmjMz1t1-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
