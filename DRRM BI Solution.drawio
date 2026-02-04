@@ -72,10 +72,22 @@
         <mxCell id="tWicLttxeN5EkmjMz1t1-15" parent="1" style="editableCssRules=.*;html=1;shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnY9Imh0dHBzOi8vdmVjdGEuaW8vbmFubyIgd2lkdGg9IjExLjUzOTk5OTk2MTg1MzAyNyIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDExLjUzOTk5OTk2MTg1MzAyNyAxNiI+JiN4YTsJPHN0eWxlIHR5cGU9InRleHQvY3NzIj4mI3hhOwkuc3Qwe2ZpbGw6IzQyODVmNDt9JiN4YTsJPC9zdHlsZT4mI3hhOwk8Y2lyY2xlIGNsYXNzPSJzdDAiIGN4PSIxMC42MyIgY3k9IjguMDEiIHI9Ii45MSIvPiYjeGE7CTxjaXJjbGUgY2xhc3M9InN0MCIgY3g9Ii45MSIgY3k9IjguMDEiIHI9Ii45MSIvPiYjeGE7CTxjaXJjbGUgY2xhc3M9InN0MCIgY3g9IjUuNzciIGN5PSI2LjY1IiByPSIuOTEiLz4mI3hhOwk8Y2lyY2xlIGNsYXNzPSJzdDAiIGN4PSI1Ljc3IiBjeT0iOS4zNyIgcj0iLjkxIi8+JiN4YTsJPHBhdGggY2xhc3M9InN0MCIgZD0iTTguNTcgMGgtLjAzTDUuNzcgMS42aDAgMEwzIDBoLS4wM0wxLjYyLjc4IDQuNCAyLjM5LjIgNC44djEuN2gxLjQ0di0uOTFsMy40NC0yLjAydjEuNDhoMS4zOFYzLjU3TDkuOSA1LjU5di45MWgxLjQ0VjQuOGwtNC4yLTIuNDFMOS45Mi43OHpNNi40NiAxMC45Nkg1LjA4djEuNDZsLTMuNDQtMi4wMVY5LjVILjJ2MS43bDQuMjEgMi40MS0yLjc5IDEuNjEgMS4zNS43OEgzbDIuNzctMS42TDguNTQgMTZoLjAzbDEuMzUtLjc4LTIuNzktMS42MSA0LjIxLTIuNDFWOS41SDkuOXYuOTFsLTMuNDQgMi4wMXoiLz4mI3hhOzwvc3ZnPg==;" value="" vertex="1">
           <mxGeometry height="58.67" width="44" x="739" y="254" as="geometry" />
         </mxCell>
-        <mxCell id="tWicLttxeN5EkmjMz1t1-20" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Data_Lake.svg;" value="" vertex="1">
+        <mxCell id="tWicLttxeN5EkmjMz1t1-20" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Data_Lake.svg;" value="Lakehouse" vertex="1">
           <mxGeometry height="60" width="45.6" x="740" y="100" as="geometry" />
         </mxCell>
         <mxCell id="tWicLttxeN5EkmjMz1t1-21" edge="1" parent="1" source="tWicLttxeN5EkmjMz1t1-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.461;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" target="tWicLttxeN5EkmjMz1t1-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tWicLttxeN5EkmjMz1t1-22" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/power_platform/PowerBI.svg;" value="" vertex="1">
+          <mxGeometry height="54.67" width="41" x="1010" y="100.37" as="geometry" />
+        </mxCell>
+        <mxCell id="tWicLttxeN5EkmjMz1t1-25" edge="1" parent="1" source="tWicLttxeN5EkmjMz1t1-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="tWicLttxeN5EkmjMz1t1-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tWicLttxeN5EkmjMz1t1-23" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.gdb_graph_database;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="47.400000000000006" width="54.900000000000006" x="860" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="tWicLttxeN5EkmjMz1t1-24" edge="1" parent="1" source="tWicLttxeN5EkmjMz1t1-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.549;entryDx=0;entryDy=0;entryPerimeter=0;" target="tWicLttxeN5EkmjMz1t1-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
